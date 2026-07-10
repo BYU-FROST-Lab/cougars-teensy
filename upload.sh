@@ -27,11 +27,11 @@ esac
 
 case $1 in
     "")
-        python3 ~/gpio/gpio_tools/program.py
+        python3 ~/teensy_ws/gpio_tools/program.py
         tycmd upload $DIRECTORY/.pio/build/teensy41/firmware.hex
         ;;
     *)
-        python3 ~/gpio/gpio_tools/program.py
+        python3 ~/teensy_ws/gpio_tools/program.py
         cd ~/teensy_ws/firmware_options
         tycmd upload $1
         ;;

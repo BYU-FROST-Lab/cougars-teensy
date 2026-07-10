@@ -3,7 +3,7 @@
 #include <SoftwareSerial.h>
 #include <Wire.h>
 #include "MS5837.h"
-#include "/home/frostlab/config/teensy_params.h"
+#include "/home/frostlab/config/agent/teensy_params.h"
 
 #define ENABLE_SERVOS
 #define ENABLE_THRUSTER
